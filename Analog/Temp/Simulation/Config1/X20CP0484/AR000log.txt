@@ -3,3 +3,6 @@
 09-03-2026 10:39:10 - InstanceName: 00000a1afa37c1d1
 09-03-2026 10:39:10 - WorkingDirectory: C:\Praktyki\Analog\Analog\Temp\Simulation\Config1\X20CP0484\
 09-03-2026 10:39:10 - COMMAND_COLDSTART
+09-03-2026 10:39:12 - Version: 6.5.1
+09-03-2026 10:39:12 - Build: 2
+09-03-2026 12:52:36 - COMMAND_TERMINATE
