@@ -1,8 +1,7 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	fb_Analog : Name;
+	auxTest : INT;
+	analog : REAL;
+	fb_Analog_2 : Name;
+	analog_2 : REAL;
 END_VAR

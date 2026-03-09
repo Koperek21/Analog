@@ -29,5 +29,23 @@
 				</Folder>
 			</Folder>
 		</Class>
+		<Memory Name="SYSROM">
+			<Module Name="::$$sysconf" Type="129" Size="87724" Modified="2026-03-09 14:56:13" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::TCData" Type="209" Size="3523560" Modified="2026-03-09 14:56:12" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::arconfig" Type="132" Size="3384" Modified="2026-03-09 14:56:13" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::asfw" Type="67" Size="885068" Modified="2026-03-09 14:56:13" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwd" Type="67" Size="2132" Modified="2026-03-09 14:56:14" Version="1.0.0.0" ProjectDependent="1" Reboot="1" />
+		</Memory>
+		<Memory Name="USERROM">
+			<Module Name="::AsIecCon" Type="18" Size="6668" Modified="2025-12-04 08:28:29" Version="6.5.1.0" ProjectDependent="1" />
+			<Module Name="::BRRole" Type="136" Size="1364" Modified="2026-03-09 14:56:14" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::FWRules" Type="136" Size="480" Modified="2026-03-09 14:56:14" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::Program" Type="17" Size="3316" Modified="2026-03-09 14:59:02" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::UaCsConfig" Type="136" Size="5868" Modified="2026-03-09 14:56:14" Version="6.0.0.0" ProjectDependent="1" Reboot="1" />
+			<Module Name="::ashwac" Type="136" Size="236" Modified="2026-03-09 14:56:14" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::iomap" Type="50" Size="7240" Modified="2026-03-09 14:56:13" Version="1.0.0.0" ProjectDependent="1" />
+			<Module Name="::runtime" Type="18" Size="15036" Modified="2025-12-04 08:30:43" Version="6.5.1.0" ProjectDependent="1" />
+			<Module Name="::udbdef" Type="210" Size="70288" Modified="2023-06-15 15:47:03" Version="0.1.0.0" ProjectDependent="1" />
+		</Memory>
 	</Application>
 </Toc>

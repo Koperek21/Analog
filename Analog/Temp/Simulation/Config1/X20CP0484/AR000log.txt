@@ -1,8 +1,12 @@
-09-03-2026 10:39:10 - COPYRIGHT (C) B&R Industrial Automation GmbH
-09-03-2026 10:39:10 - No ARsim registration found!
-09-03-2026 10:39:10 - InstanceName: 00000a1afa37c1d1
-09-03-2026 10:39:10 - WorkingDirectory: C:\Praktyki\Analog\Analog\Temp\Simulation\Config1\X20CP0484\
-09-03-2026 10:39:10 - COMMAND_COLDSTART
-09-03-2026 10:39:12 - Version: 6.5.1
-09-03-2026 10:39:12 - Build: 2
-09-03-2026 12:52:36 - COMMAND_TERMINATE
+09-03-2026 14:59:27 - COPYRIGHT (C) B&R Industrial Automation GmbH
+09-03-2026 14:59:27 - No ARsim registration found!
+09-03-2026 14:59:27 - InstanceName: 00000a3f56c74f38
+09-03-2026 14:59:27 - WorkingDirectory: C:\Praktyki\Analog\Analog\Temp\Simulation\Config1\X20CP0484\
+09-03-2026 14:59:27 - COMMAND_COLDSTART
+09-03-2026 14:59:30 - Version: 6.5.1
+09-03-2026 14:59:30 - Build: 2
+09-03-2026 14:59:31 - COMMAND_TERMINATE
+09-03-2026 14:59:31 - COMMAND_COLDSTART
+09-03-2026 14:59:34 - Version: 6.5.1
+09-03-2026 14:59:34 - Build: 2
+09-03-2026 15:01:26 - COMMAND_TERMINATE

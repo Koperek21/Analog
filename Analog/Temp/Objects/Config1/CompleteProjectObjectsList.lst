@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="6.5.1.7"?>
+<Objects>
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="134175227432413755" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="134175382906558387" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\operator\binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="134093113500000000" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\runtime\binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="134093113500000000" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\AsIecCon\binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="134093113500000000" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="134093113500000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\IEC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="134175382468449813" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\Main.st"
+    LogicalPath="Program.Main.st"
+    Type="File"
+    LastWriteTime="134175381280017777"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\Types.typ"
+    LogicalPath="Program.Types.typ"
+    Type="File"
+    LastWriteTime="134175227432333772"
+    Private="true" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\Variables.var"
+    LogicalPath="Program.Variables.var"
+    Type="File"
+    LastWriteTime="134175379574456644"
+    Private="true" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\LocalFunctions.fun"
+    LogicalPath="Program.LocalFunctions.fun"
+    Type="File"
+    LastWriteTime="134175382851958065"
+    Private="true" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\Name.st"
+    LogicalPath="Program.Name.st"
+    Type="File"
+    LastWriteTime="134175379571266624"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\Scale.st"
+    LogicalPath="Program.Scale.st"
+    Type="File"
+    LastWriteTime="134175383311145985"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Logical\Program\Normalize.st"
+    LogicalPath="Program.Normalize.st"
+    Type="File"
+    LastWriteTime="134175383166355117"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\Config.pkg"
+    LogicalPath="Config1"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="134175225527956228" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\Hardware.hw"
+    LogicalPath="Config1.Hardware.hw"
+    Type="File"
+    LastWriteTime="134175381225950679"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\Hardware.hwl"
+    LogicalPath="Config1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Cpu.pkg"
+    LogicalPath="Config1.X20CP0484"
+    Type="Cpu"
+    LastWriteTime="134175225530306259" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Cpu.sw"
+    LogicalPath="Config1.X20CP0484.Cpu.sw"
+    Type="File"
+    LastWriteTime="134175382907508386"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Cpu.per"
+    LogicalPath="Config1.X20CP0484.Cpu.per"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\IoMap.iom"
+    LogicalPath="Config1.X20CP0484.IoMap.iom"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\PvMap.vvm"
+    LogicalPath="Config1.X20CP0484.PvMap.vvm"
+    Type="File"
+    LastWriteTime="134146893100000000"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Connectivity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity"
+    Type="Package"
+    LastWriteTime="134175225529466266" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Connectivity\OpcUaCs\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUaCs"
+    Type="Package"
+    LastWriteTime="134175225529416251" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Connectivity\OpcUaCs\UaCsConfig.uacfg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUaCs.UaCsConfig.uacfg"
+    Type="File"
+    LastWriteTime="134175225529356199"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Connectivity\OpcUaCs\UaDvConfig.uadcfg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUaCs.UaDvConfig.uadcfg"
+    Type="File"
+    LastWriteTime="134175225529396246"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Config1.X20CP0484.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="134175225529456242" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\TextSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.TextSystem"
+    Type="Package"
+    LastWriteTime="134175225529526249" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\UnitSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.UnitSystem"
+    Type="Package"
+    LastWriteTime="134175225529576248" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="134175225530296273" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="134175225529706250" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\UserRoleSystem\BRRole.brrole"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.UserRoleSystem.BRRole.brrole"
+    Type="File"
+    LastWriteTime="134175225529696214"
+    Private="false" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="134175225530106208" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="134175225529876271" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="134175225529826261" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="134175225529866224" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="134175225529966250" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="134175225529956162" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="134175225530026265" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="134175225530086261" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\ManagedCertificateStores\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.ManagedCertificateStores"
+    Type="Package"
+    LastWriteTime="134175225530146260" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="134175225530206266" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="134175225530286263" />
+  <Object
+    Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Config1.X20CP0484.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="134175225530266230"
+    Private="false" />
+</Objects>

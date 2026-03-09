@@ -12,4 +12,6 @@ Integers(pozwala na bycie liczba całkowita o różnych wartosciach możliwei ze
 -64-Bit
 Floating-Point Numbers(typ zmiennej pozwalajacyj jej na bycie liczba dziesiętna(zmiennoprezcinkwą):
 -REAL- 32-Bitowy typ zmiennej posiający 1 percepcje uzywany do skalowani wyjsć/wejsc analogowych,obsługi złożonych algorytmów matematycznych,obsługi szczegółowych precyzyjnych pomiarów
--LREAL- 64-Bitowy typ zmiennej posiadający 2 percepcje słuzacy do bardziej precyzyjnych pomiarów niż zwykły 32-Bitowy 
+-LREAL- 64-Bitowy typ zmiennej posiadający 2 percepcje słuzacy do bardziej precyzyjnych pomiarów niż zwykły 32-Bitowy
+Funkcjie:
+Norm-przekształca nieobrobiona wartość na vartosc w kakretnym przedziale

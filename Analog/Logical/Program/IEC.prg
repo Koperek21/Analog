@@ -7,5 +7,7 @@
     <File Description="Local variables" Private="true">Variables.var</File>
     <File Private="true">LocalFunctions.fun</File>
     <File>Name.st</File>
+    <File>Scale.st</File>
+    <File>Normalize.st</File>
   </Files>
 </Program>
