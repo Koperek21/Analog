@@ -24,5 +24,13 @@ VAR
 END_VAR
 
 
+NORM := (value-range_min)/(range_max_range_min)
+ 
+END_FUNCTION
+
+FUNCTION SCALING : REAL
+ VAR	
+	rang_max : REAL
+END_VAR
 
 
