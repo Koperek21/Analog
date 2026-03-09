@@ -1,0 +1,5 @@
+09-03-2026 10:39:10 - COPYRIGHT (C) B&R Industrial Automation GmbH
+09-03-2026 10:39:10 - No ARsim registration found!
+09-03-2026 10:39:10 - InstanceName: 00000a1afa37c1d1
+09-03-2026 10:39:10 - WorkingDirectory: C:\Praktyki\Analog\Analog\Temp\Simulation\Config1\X20CP0484\
+09-03-2026 10:39:10 - COMMAND_COLDSTART
