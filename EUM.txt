@@ -1,0 +1,28 @@
+EUM
+Funkcja
+
+TYPE
+	 correct_value_analog : REAL(4.0..20.0)(*zakres możliwej wartości sygnału z czujnika *);
+END_TYPE
+
+
+FUNCTION scaling_4-20mA_to_0-20Bar : REAL;
+
+VAR_INPUT
+	RAW :  correct_value_analog (*przypisanie wejściu analogowemu możliwych wartości*)
+END_VAR
+
+scaling_4-20mA_to_0-20Bar :=((RAW-4.0)/16.0)*20.0 (*przeskalowanie wartosci z czujnika na *)
+END_FUNCTION
+
+FUNCTION NORM : REAL;
+
+VAR
+	range_min : REAL;
+	range_max : REAL;
+	value : REAL CZY correct_value_analog;
+END_VAR
+
+
+
+
