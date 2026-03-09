@@ -1,3 +1,15 @@
-var,struct,array-okreslanie rodzaju zgrupowania zmiennej 
-Var(variable-zmienna)- okreslenie nazwy i typu zmiennej(typ np. BOOL,INT,REAL)
-STRUCT(structure-struktura)-
+
+Var(variable-zmienna)- okreslenie nazwy i typu zmiennej (lub zmiennej z struktury)(typ np. BOOL,INT,REAL)
+STRUCT(structure-struktura)-pozwala zgrupowac wiele istniejących zmiennych w strukture i traktowac jak jednną zmienną
+ARRAY(Tblica)-pozwala przechowywać wile elementów tego samego typu(np. REAL) pod nazwą jednej zmiennej
+Typy Zinennych
+Boolean:
+-BOOL-typ zmiennej pozwalacy jej na bycie TRUE albo FALSE
+Integers(pozwala na bycie liczba całkowita o różnych wartosciach możliwei ze znakiem minus lub plus):
+-8-Bit
+-16-Bit
+-32-Bit
+-64-Bit
+Floating-Point Numbers(typ zmiennej pozwalajacyj jej na bycie liczba dziesiętna(zmiennoprezcinkwą):
+-REAL- 32-Bitowy typ zmiennej posiający 1 percepcje uzywany do skalowani wyjsć/wejsc analogowych,obsługi złożonych algorytmów matematycznych,obsługi szczegółowych precyzyjnych pomiarów
+-LREAL- 64-Bitowy typ zmiennej posiadający 2 percepcje słuzacy do bardziej precyzyjnych pomiarów niż zwykły 32-Bitowy 

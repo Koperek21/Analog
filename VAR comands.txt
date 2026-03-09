@@ -1,5 +1,0 @@
-VAR comands
-VAR-zmienne dostepne tylko w programie 
-VAR_INPUT-parametry wejściowe bloku
-VAR_OUTPUT-parametry wyjściowe bloku
-VAR_IN_OUT-pozwala blokowi zmienic wartowśc orginalnej zmiennej

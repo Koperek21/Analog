@@ -1,0 +1,9 @@
+
+{REDUND_ERROR} FUNCTION_BLOCK Name (*TODO: Add your comment here*) (*$GROUP=User,$CAT=User,$GROUPICON=User.png,$CATICON=User.png*)
+	VAR
+		New_Member : USINT;
+	END_VAR
+	VAR_INPUT
+		test : {REDUND_UNREPLICABLE} BOOL;
+	END_VAR
+END_FUNCTION_BLOCK
