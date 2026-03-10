@@ -97,11 +97,12 @@ typedef struct Configuration
 struct Name
 {	signed short RAW;
 	Configuration Config;
-	float HSV;
 	float AnalogOUT;
 	signed short AnalogOut10;
 	signed short AnalogOut100;
 	float AnalogOutSignal;
+	float AnalogOutKelvin;
+	plcbit Error;
 };
 void Name(struct Name* inst);
 _BUR_LOCAL struct Name fb_Analog;

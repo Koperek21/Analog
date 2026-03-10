@@ -3,13 +3,15 @@
 	VAR_INPUT
 		RAW : INT; (*dodanie wartoœci niobrobionej*)
 		Config : Configuration; (*dodanie wartosci minimalnej*)
-		HSV : REAL; (*dodanie wartosci maksymalnej*)
+		(*HSV : REAL; (*dodanie wartosci maksymalnej*)
 	END_VAR
 	VAR_OUTPUT
 		AnalogOUT : REAL;
 		AnalogOut10 : INT;
 		AnalogOut100 : INT;
 		AnalogOutSignal : REAL;
+		AnalogOutKelvin : REAL;
+		Error : BOOL;
 	END_VAR
 END_FUNCTION_BLOCK
 

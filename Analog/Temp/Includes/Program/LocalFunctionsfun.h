@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773140981_5_
-#define _BUR_1773140981_5_
+#ifndef _BUR_1773145071_1_
+#define _BUR_1773145071_1_
 
 #include <bur/plctypes.h>
 
@@ -12,12 +12,14 @@ typedef struct Name
 	/* VAR_INPUT (analog) */
 	signed short RAW;
 	struct Configuration Config;
-	float HSV;
 	/* VAR_OUTPUT (analog) */
 	float AnalogOUT;
 	signed short AnalogOut10;
 	signed short AnalogOut100;
 	float AnalogOutSignal;
+	float AnalogOutKelvin;
+	/* VAR_OUTPUT (digital) */
+	plcbit Error;
 } Name_typ;
 
 
@@ -45,5 +47,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/LocalFunctions.fun\\\" scope \\\"l
 __asm__(".previous");
 
 
-#endif /* _BUR_1773140981_5_ */
+#endif /* _BUR_1773145071_1_ */
 

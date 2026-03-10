@@ -59,10 +59,10 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Config1\X20CP0484\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\FWRules.br&quot; -zip -B 6.5.1 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Config1&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\Config1\Hardware.hw&quot;  -v 1.0.0" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\program.ox" LastWriteTime="2026-03-10 11:17:14" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\program.ox" LastWriteTime="2026-03-10 12:24:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\cpu.per" LastWriteTime="2026-02-04 14:35:10" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Program.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program.br&quot; -v 1.0.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Config1\X20CP0484\LT.ofs&quot; -M IA32 -B 6.5.1 -G V11.3.0  -extConstants -d &quot;runtime: V* - V*,AsIecCon: V* - V*&quot; -r Cyclic4 -p 2 -s &quot;Program&quot; -L &quot;AsIecCon: V*, operator: V*, runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="65535" />
@@ -71,100 +71,100 @@
     <AdditionalBuildTrigger Key="RemanentMemory" Value="0" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\program.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.o" LastWriteTime="2026-03-10 11:17:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\_bur_pvdef.st.o" LastWriteTime="2026-03-10 11:17:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.o" LastWriteTime="2026-03-10 12:24:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\_bur_pvdef.st.o" LastWriteTime="2026-03-10 12:24:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Main.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Name.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Scale.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Normalize.st.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\_bur_pvdef.st.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Program.ox&quot; -G V11.3.0  -M IA32 &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libAsIecCon.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\libruntime.a&quot; &quot;-Wl,$(AS_PATH)\AS\System\6.5.1\SG4\Ia32\liboperator.a&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -nostdlib &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\lib\libm.a&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.c">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\main.st" LastWriteTime="2026-03-10 11:09:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\main.st" LastWriteTime="2026-03-10 11:48:52" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Main.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Main.st.c&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.c" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.c" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Main.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Main.st.o&quot; -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.c">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\name.st" LastWriteTime="2026-03-10 11:17:06" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\name.st" LastWriteTime="2026-03-10 12:24:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Name.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Name.st.c&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.c" LastWriteTime="2026-03-10 11:17:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.c" LastWriteTime="2026-03-10 12:24:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Name.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Name.st.o&quot; -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.c">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\scale.st" LastWriteTime="2026-03-09 13:58:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Scale.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Scale.st.c&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.c" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.c" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Scale.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Scale.st.o&quot; -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.c">
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\normalize.st" LastWriteTime="2026-03-09 13:58:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Normalize.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Normalize.st.c&quot; -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.c" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.c" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Normalize.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\Normalize.st.o&quot; -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -ansi -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -w -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\_bur_pvdef.st.c">
     <Prerequisite ID="$(AS_PATH)\as\gnuinst\v11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st" LastWriteTime="2026-02-04 15:24:18" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.o" LastWriteTime="2026-03-10 11:17:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.o" LastWriteTime="2026-03-10 12:24:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\i686-elf\include\bur\_bur_pvdef.st&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\_bur_pvdef.st.c&quot; -S &quot;Main.st&quot; &quot;Name.st&quot; &quot;Scale.st&quot; &quot;Normalize.st&quot;  -T SG4 -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -pointers -extComments -extBitAccess -extConstants -D _SG4 -l &quot;$(AS_PROJECT_PATH)\Logical\Program\Types.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\Variables.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Program\LocalFunctions.fun&quot; -g &quot;$(AS_PROJECT_PATH)\Logical\Global.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.typ&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.fun&quot; &quot;$(AS_PROJECT_PATH)\Logical\Global.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\operator\operator.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\runtime\runtime.var&quot; &quot;$(AS_PROJECT_PATH)\Logical\Libraries\AsIecCon\AsIecCon.var&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\_bur_pvdef.st.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\_bur_pvdef.st.c" LastWriteTime="2026-03-10 11:17:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.o" LastWriteTime="2026-03-10 11:17:14" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.o" LastWriteTime="2026-03-10 11:09:40" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 10:35:34" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 10:33:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\_bur_pvdef.st.c" LastWriteTime="2026-03-10 12:24:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\main.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\name.st.o" LastWriteTime="2026-03-10 12:24:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\scale.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program\normalize.st.o" LastWriteTime="2026-03-10 12:17:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\localfunctions.fun" LastWriteTime="2026-03-10 12:17:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\types.typ" LastWriteTime="2026-03-10 11:47:02" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\variables.var" LastWriteTime="2026-03-10 11:06:10" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\_bur_pvdef.st.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Program\_bur_pvdef.st.o&quot; -M IA32 -B 6.5.1 -G V11.3.0  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs &quot;$(AS_PATH)\AS\gnuinst\V11.3.0\6.3\lib\gcc\i686-elf\11.3.0\brelf.specs&quot; -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Config1\X20CP0484\Libraries.h&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
@@ -192,7 +192,7 @@
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\uacsconfig.br" LastWriteTime="2026-03-10 11:09:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\brrole.br" LastWriteTime="2026-03-10 11:09:50" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\fwrules.br" LastWriteTime="2026-03-10 11:09:50" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program.br" LastWriteTime="2026-03-10 11:17:14" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\program.br" LastWriteTime="2026-03-10 12:24:28" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\asieccon.br" LastWriteTime="2025-12-04 08:42:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\config1\x20cp0484\runtime.br" LastWriteTime="2025-12-04 08:42:34" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\config1\x20cp0484\cpu.sw" LastWriteTime="2026-03-10 07:25:18" />

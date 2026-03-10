@@ -8,7 +8,7 @@
 void Name(struct Name* inst){struct Name* __inst__=inst;{
 
 
-(__inst__->AnalogOUT=Scale(__inst__->Config.LSV,Normalize(0,__inst__->RAW,32768),__inst__->Config.HSV));
+
 (__inst__->AnalogOUT=((float)(signed short)((__inst__->AnalogOUT*100)>=0.0?(__inst__->AnalogOUT*100)+0.5:(__inst__->AnalogOUT*100)-0.5)/100));
 
 
@@ -16,16 +16,37 @@ void Name(struct Name* inst){struct Name* __inst__=inst;{
 (__inst__->AnalogOut100=(signed short)((__inst__->AnalogOUT*100)>=0.0?(__inst__->AnalogOUT*100)+0.5:(__inst__->AnalogOUT*100)-0.5));
 switch(__inst__->Config.Signal){
 case 0:{
-(__inst__->AnalogOutSignal=((float)(signed short)((Scale(0,__inst__->RAW,32768)*10)>=0.0?(Scale(0,__inst__->RAW,32768)*10)+0.5:(Scale(0,__inst__->RAW,32768)*10)-0.5)/100));
+(__inst__->AnalogOutSignal=(float)(((signed long)((signed short)((Scale(0,Normalize(0,__inst__->RAW,32768),10)*100)>=0.0?(Scale(0,Normalize(0,__inst__->RAW,32768),10)*100)+0.5:(Scale(0,Normalize(0,__inst__->RAW,32768),10)*100)-0.5)))/((signed long)(100))));
 }break;case 1:{
-(__inst__->AnalogOutSignal=((float)(signed short)((Scale(0,__inst__->RAW,32768)*20)>=0.0?(Scale(0,__inst__->RAW,32768)*20)+0.5:(Scale(0,__inst__->RAW,32768)*20)-0.5)/100));
+(__inst__->AnalogOutSignal=(float)(((signed long)((signed short)((Scale(0,Normalize(0,__inst__->RAW,32768),20)*100)>=0.0?(Scale(0,Normalize(0,__inst__->RAW,32768),20)*100)+0.5:(Scale(0,Normalize(0,__inst__->RAW,32768),20)*100)-0.5)))/((signed long)(100))));
 }break;case 2:{
-(__inst__->AnalogOutSignal=((float)(signed short)((Scale(4,__inst__->RAW,32768)*20)>=0.0?(Scale(4,__inst__->RAW,32768)*20)+0.5:(Scale(4,__inst__->RAW,32768)*20)-0.5)/100));
+(__inst__->AnalogOutSignal=(float)(((signed long)((signed short)((Scale(4,Normalize(0,__inst__->RAW,32768),20)*100)>=0.0?(Scale(4,Normalize(0,__inst__->RAW,32768),20)*100)+0.5:(Scale(4,Normalize(0,__inst__->RAW,32768),20)*100)-0.5)))/((signed long)(100))));
+
+}break;}
+switch(__inst__->Config.SensorType){
+case 0:{
+(__inst__->AnalogOUT=Scale(__inst__->Config.LSV,Normalize(0,__inst__->RAW,32768),__inst__->Config.HSV));
+}break;case 1:{
+(__inst__->AnalogOUT=Scale(__inst__->Config.LSV,Normalize(0,__inst__->RAW,32768),__inst__->Config.HSV));
+(__inst__->AnalogOutKelvin=(__inst__->AnalogOUT+(2.73149993896484375000E+02)));
+}break;case 2:{
+(__inst__->AnalogOUT=Scale(0,Normalize(0,__inst__->RAW,32768),360));
 
 }break;}
 
-}imp1_case0_2:imp1_endcase0_0:;}
-#line 22 "C:/Praktyki/Analog/Analog/Logical/Program/Name.nodebug"
+if(((__inst__->Config.HSV==0))){
+(__inst__->Error=1);
+}
+if(__inst__->Error){
+(__inst__->AnalogOUT=0);
+(__inst__->AnalogOut10=0);
+(__inst__->AnalogOut100=0);
+(__inst__->AnalogOutSignal=0);
+(__inst__->AnalogOutKelvin=0);
+}
+
+}imp1_else3_0:imp1_end3_0:;}
+#line 43 "C:/Praktyki/Analog/Analog/Logical/Program/Name.nodebug"
 
 void __AS__ImplInitName_st(void){}
 
@@ -52,6 +73,7 @@ __asm__(".ascii \"plc_iec_localfun \\\"INTx10\\\"\\n\"");
 __asm__(".previous");
 
 __asm__(".section \".plciec\"");
+__asm__(".ascii \"plcdata_type 'SensorsType'\\n\"");
 __asm__(".ascii \"plcdata_type 'SignalType'\\n\"");
 __asm__(".ascii \"plcdata_type 'Configuration'\\n\"");
 __asm__(".previous");

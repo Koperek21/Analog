@@ -1,7 +1,8 @@
-10-03-2026 12:08:10 - COPYRIGHT (C) B&R Industrial Automation GmbH
-10-03-2026 12:08:10 - No ARsim registration found!
-10-03-2026 12:08:10 - InstanceName: 00000af09629c91b
-10-03-2026 12:08:10 - WorkingDirectory: C:\Praktyki\Analog\Analog\Temp\Simulation\Config1\X20CP0484\
-10-03-2026 12:08:10 - COMMAND_COLDSTART
-10-03-2026 12:08:10 - COMMAND_TERMINATE
-10-03-2026 12:08:10 - Old process terminated: C:\Praktyki\Analog\Analog\Temp\Simulation\Config1\X20CP0484\AR000.exe
+10-03-2026 12:49:30 - COPYRIGHT (C) B&R Industrial Automation GmbH
+10-03-2026 12:49:30 - No ARsim registration found!
+10-03-2026 12:49:30 - InstanceName: 00000af65c2f24e0
+10-03-2026 12:49:30 - WorkingDirectory: C:\Praktyki\Analog\Analog\Temp\Simulation\Config1\X20CP0484\
+10-03-2026 12:49:30 - COMMAND_COLDSTART
+10-03-2026 12:49:32 - Version: 6.5.1
+10-03-2026 12:49:33 - Build: 2
+10-03-2026 13:19:17 - COMMAND_TERMINATE

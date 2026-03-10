@@ -4,6 +4,9 @@
   <Active ID="1760212" />
   <Configuration Name="Config1" />
   <ConfigurationFiles ConfigurationName="Config1" ActiveConfigurationFile="\Logical\Program\Main.st">
-    <ConfigurationFile Placement="\Logical\Program\Main.st,Program,2,44,0,1,-1,-1,-1,-1,2,24,1172,732" />
+    <ConfigurationFile Placement="\Logical\Program\Main.st,Program,2,44,0,1,-1,-1,-1,-1,2,24,1281,682" />
+    <ConfigurationFile Placement="\Logical\Program\Name.st,Program,2,44,0,1,-1,-1,-1,-1,2,24,1281,682" />
+    <ConfigurationFile Placement="\Logical\Program\LocalFunctions.fun,Program,2,44,0,1,-1,-1,-1,-1,2,24,1281,682" />
+    <ConfigurationFile Placement="\Diagnosis\Config1\X20CP0484\Program.pvm,,4,44,0,1,-1,-1,-1,-1,1288,24,1460,682" />
   </ConfigurationFiles>
 </Project>
