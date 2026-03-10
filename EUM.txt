@@ -14,7 +14,7 @@ VAR
 END_VAR
 
 
-NORM := (value-range_min)/(range_max_range_min)
+NORM := (value-range_min)/(range_max-range_min)
  
 END_FUNCTION
 
