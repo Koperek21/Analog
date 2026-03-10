@@ -14,13 +14,16 @@ VAR
 END_VAR
 
 
-NORM := (value-range_min)/(range_max-range_min)
+NORM := (value-range_min)/(range_max-range_min);
  
 END_FUNCTION
 
-FUNCTION SCALING : REAL
+FUNCTION SCALE: REAL;
  VAR	
-	rang_max : REAL
+	rang_max : REAL;
+	range_min : REAL;
+	value
 END_VAR
+	SCALE :=  (value *(range_max-range_min)) + range_min;
 
 
