@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773064741_1_
-#define _BUR_1773064741_1_
+#ifndef _BUR_1773140981_5_
+#define _BUR_1773140981_5_
 
 #include <bur/plctypes.h>
 
@@ -11,12 +11,13 @@ typedef struct Name
 {
 	/* VAR_INPUT (analog) */
 	signed short RAW;
-	float LSV;
+	struct Configuration Config;
 	float HSV;
 	/* VAR_OUTPUT (analog) */
 	float AnalogOUT;
-	/* VAR (analog) */
-	float procent;
+	signed short AnalogOut10;
+	signed short AnalogOut100;
+	float AnalogOutSignal;
 } Name_typ;
 
 
@@ -25,6 +26,7 @@ typedef struct Name
 void Name(struct Name* inst);
 float Scale(float Minimum, float Value, float Maximum);
 float Normalize(float Minimum, float Value, float Maximum);
+signed short INTx10(void);
 
 
 __asm__(".section \".plc\"");
@@ -37,10 +39,11 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/LocalFunctions.fun\\\" scope \\\"l
 	__asm__(".ascii \"plcexport \\\"Name\\\" FUB\\n\"");
 	__asm__(".ascii \"plcexport \\\"Scale\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"Normalize\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"INTx10\\\" FUN\\n\"");
 #endif
 
 __asm__(".previous");
 
 
-#endif /* _BUR_1773064741_1_ */
+#endif /* _BUR_1773140981_5_ */
 

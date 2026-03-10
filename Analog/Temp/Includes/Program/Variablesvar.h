@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1773064564_4_
-#define _BUR_1773064564_4_
+#ifndef _BUR_1773140981_4_
+#define _BUR_1773140981_4_
 
 #include <bur/plctypes.h>
 
@@ -16,6 +16,7 @@
 
 
 /* Variables */
+_BUR_LOCAL struct Configuration analog1Config;
 _BUR_LOCAL float analog_2;
 _BUR_LOCAL struct Name fb_Analog_2;
 _BUR_LOCAL float analog;
@@ -33,5 +34,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Program/Variables.var\\\" scope \\\"local\
 __asm__(".previous");
 
 
-#endif /* _BUR_1773064564_4_ */
+#endif /* _BUR_1773140981_4_ */
 

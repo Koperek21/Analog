@@ -31,4 +31,5 @@ __asm__(".ascii \"iecfile \\\"C:/Praktyki/Analog/Analog/Temp/Objects/Config1/X20
 __asm__(".ascii \"plc_iec_localfub \\\"Name\\\"\\n\"");
 __asm__(".ascii \"plc_iec_localfun \\\"Scale\\\"\\n\"");
 __asm__(".ascii \"plc_iec_localfun \\\"Normalize\\\"\\n\"");
+__asm__(".ascii \"plc_iec_localfun \\\"INTx10\\\"\\n\"");
 __asm__(".previous");

@@ -5,7 +5,7 @@
     Path="C:\Praktyki\Analog\Analog\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="134175227432413755" />
+    LastWriteTime="134176011191546678" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -96,36 +96,36 @@
     Path="C:\Praktyki\Analog\Analog\Logical\Program\IEC.prg"
     LogicalPath="Program"
     Type="Program"
-    LastWriteTime="134175382468449813" />
+    LastWriteTime="134176026901035454" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Logical\Program\Main.st"
     LogicalPath="Program.Main.st"
     Type="File"
-    LastWriteTime="134175381280017777"
+    LastWriteTime="134176145744280108"
     Private="false" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Logical\Program\Types.typ"
     LogicalPath="Program.Types.typ"
     Type="File"
-    LastWriteTime="134175227432333772"
+    LastWriteTime="134176124166396179"
     Private="true" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Logical\Program\Variables.var"
     LogicalPath="Program.Variables.var"
     Type="File"
-    LastWriteTime="134175379574456644"
+    LastWriteTime="134176143719884053"
     Private="true" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Logical\Program\LocalFunctions.fun"
     LogicalPath="Program.LocalFunctions.fun"
     Type="File"
-    LastWriteTime="134175382851958065"
+    LastWriteTime="134176125358420073"
     Private="true" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Logical\Program\Name.st"
     LogicalPath="Program.Name.st"
     Type="File"
-    LastWriteTime="134175379571266624"
+    LastWriteTime="134176150265009789"
     Private="false" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Logical\Program\Scale.st"
@@ -148,7 +148,7 @@
     Path="C:\Praktyki\Analog\Analog\Physical\Config1\Hardware.hw"
     LogicalPath="Config1.Hardware.hw"
     Type="File"
-    LastWriteTime="134175381225950679"
+    LastWriteTime="134176145060194562"
     Private="false" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Physical\Config1\Hardware.hwl"
@@ -160,12 +160,12 @@
     Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Cpu.pkg"
     LogicalPath="Config1.X20CP0484"
     Type="Cpu"
-    LastWriteTime="134175225530306259" />
+    LastWriteTime="134175383832866716" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Cpu.sw"
     LogicalPath="Config1.X20CP0484.Cpu.sw"
     Type="File"
-    LastWriteTime="134175382907508386"
+    LastWriteTime="134176011192353176"
     Private="false" />
   <Object
     Path="C:\Praktyki\Analog\Analog\Physical\Config1\X20CP0484\Cpu.per"

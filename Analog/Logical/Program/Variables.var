@@ -4,4 +4,5 @@ VAR
 	analog : REAL;
 	fb_Analog_2 : Name;
 	analog_2 : REAL;
+	analog1Config : Configuration;
 END_VAR

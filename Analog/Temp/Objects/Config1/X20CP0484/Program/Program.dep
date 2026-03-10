@@ -1,2 +1,3 @@
 $(AS_PROJECT_PATH)/Logical/Program/LocalFunctions.fun
+$(AS_PROJECT_PATH)/Logical/Program/Types.typ
 $(AS_PROJECT_PATH)/Logical/Program/Variables.var
